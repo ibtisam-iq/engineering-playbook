@@ -28,9 +28,9 @@ When engineers maintain multiple Gmail accounts, they face:
 
 We need a system that:
 
-✅ Preserves security
-✅ Keeps accounts separated
-✅ Provides centralized visibility
+- ✅ Preserves security
+- ✅ Keeps accounts separated
+- ✅ Provides centralized visibility
 
 ---
 
@@ -122,11 +122,11 @@ This creates a **monitoring layer** without giving direct access.
 
 **Pros:**
 
-✅ Safest model
-✅ No password sharing
-✅ No protocol-level access
-✅ Minimal attack surface
-✅ Works with 2FA
+- ✅ Safest model
+- ✅ No password sharing
+- ✅ No protocol-level access
+- ✅ Minimal attack surface
+- ✅ Works with 2FA
 
 **Cons:**
 
@@ -194,11 +194,11 @@ This allows instant visibility of email origin.
 
 Avoid these:
 
-❌ Full POP3 access
-❌ IMAP blanket sync
-❌ Login everywhere with vault accounts
-❌ Using primary vault as the forward target
-❌ Mixing work and recovery emails
+- ❌ Full POP3 access
+- ❌ IMAP blanket sync
+- ❌ Login everywhere with vault accounts
+- ❌ Using primary vault as the forward target
+- ❌ Mixing work and recovery emails
 
 ---
 
@@ -242,5 +242,3 @@ Email forwarding achieves that.
 > Only centralize visibility.
 
 That’s real architecture.
-
----
